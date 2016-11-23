@@ -1,0 +1,60 @@
+\documentclass[a4paper,12pt,twoside]{book} 
+
+\input{usepackages.tex}
+
+\title{ 
+\includegraphics[width=5.75in]{Simteq-ISS.png} \\ 
+\vspace*{1in} 
+\textcolor{BrickRed}{\fontsize{40}{50}\selectfont Acceptance Test Manual} \vspace{0.5em}\\ \fontsize{30}{40}\selectfont ATM-ATA00.tex} 
+\author{Author 1 (Author 1)\\ 
+\vspace*{0.5in} \\ 
+\textbf{Simteq B.V.}\\ 
+Vijfhuizen, The Netherlands 
+} \date{\today}  
+%--------------------Make usable space all of page 
+\setlength{\oddsidemargin}{0in} \setlength{\evensidemargin}{0in} 
+\setlength{\topmargin}{0in}     \setlength{\headsep}{-.25in} 
+\setlength{\textwidth}{6.5in}   \setlength{\textheight}{8.5in} 
+%--------------------Indention 
+\setlength{\parindent}{1cm} 
+\begin{document} 
+\maketitle 
+THIS IS A TEST NAME:  First ATM test
+ 
+            Action to perform:    Run the code:
+			
+ 
+ \CheckBox[]{Focus on the content!} 
+ 
+\begin{Form} 
+Focus on the content! 
+\CheckBox[bordercolor={0 0 0},height=1ex,width=1.5ex, name=ch1]{Yes}\quad 
+\CheckBox[bordercolor={0 0 0},height=1ex,width=1.5ex, name=ch2]{No}\quad 
+\end{Form} 
+THIS IS A TEST NAME:  Second ATM test
+ 
+            Action to perform:    Press APU ON:
+			
+ 
+ \CheckBox[]{APU starts} 
+ 
+\begin{Form} 
+APU starts 
+\CheckBox[bordercolor={0 0 0},height=1ex,width=1.5ex, name=ch1]{Yes}\quad 
+\CheckBox[bordercolor={0 0 0},height=1ex,width=1.5ex, name=ch2]{No}\quad 
+\end{Form} 
+\CheckBox[]{Validation 2.2!} 
+ 
+\begin{Form} 
+Validation 2.2! 
+\CheckBox[bordercolor={0 0 0},height=1ex,width=1.5ex, name=ch1]{Yes}\quad 
+\CheckBox[bordercolor={0 0 0},height=1ex,width=1.5ex, name=ch2]{No}\quad 
+\end{Form} 
+\CheckBox[]{Validation 2.3!} 
+ 
+\begin{Form} 
+Validation 2.3! 
+\CheckBox[bordercolor={0 0 0},height=1ex,width=1.5ex, name=ch1]{Yes}\quad 
+\CheckBox[bordercolor={0 0 0},height=1ex,width=1.5ex, name=ch2]{No}\quad 
+\end{Form} 
+\end{document} 

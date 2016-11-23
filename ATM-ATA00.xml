@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<atm ATM="ATA - 00 Test">
+    <test NAME = "First ATM test">
+		<objective>Test python code for parsing</objective>
+		<action> Run the code:
+			<verification>Focus on the content!</verification>
+		</action>
+	</test>
+    <test NAME = "Second ATM test">
+		<objective>test another TEST element 2</objective>
+		<action> Press APU ON:
+			<verification>APU starts</verification>
+			<verification>Validation 2.2!</verification>
+			<verification>Validation 2.3!</verification>
+		</action>
+	</test>
+</atm>	
